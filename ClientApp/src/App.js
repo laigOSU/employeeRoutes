@@ -14,7 +14,7 @@ import { EditUser } from './components/Users/EditUser';
 import { ForgetPassword } from './components/ForgetPassword';
 import { Switch } from 'react-router-dom';
 import { LandingPage } from './components/LandingPage';
-import { AppLayout } from './components/AppLayout';
+import { LogOut } from './components/LogOut';
 import { ProtectedRoute } from './ProtectedRoute';
 
 
@@ -28,7 +28,7 @@ export default class App extends Component {
             <Switch>
                 <Route exact path="/" component={LandingPage}/>
                 <ProtectedRoute path='/login' component={Login} />
-                <ProtectedRoute exact path="/app" component={AppLayout}/>
+                <ProtectedRoute exact path="/logout" component={LogOut}/>
 
                 <ProtectedRoute path='/home' component={Home} />
                

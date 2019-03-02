@@ -8,7 +8,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 import { LandingPage } from './components/LandingPage';
 import { Route, Switch } from 'react-router-dom';
-import { AppLayout } from './components/AppLayout';
+import { LogOut } from './components/LogOut';
 import { ProtectedRoute } from './ProtectedRoute';
 import { Login } from './components/Login';
 

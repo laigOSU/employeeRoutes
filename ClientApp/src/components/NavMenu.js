@@ -22,6 +22,7 @@ export class NavMenu extends Component {
                     <NavLink className="nav-link nav-item" to="/users">Users</NavLink>
                     <NavLink className="nav-link nav-item" to="/award">Awards</NavLink>
                     <NavLink className="nav-link nav-item" to="/settings">Settings</NavLink>
+                    <NavLink className="nav-link nav-item" to="/logout">LogOut</NavLink>
                 </div>
             </div>
         </nav>
